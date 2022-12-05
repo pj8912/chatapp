@@ -1,0 +1,72 @@
+#messages{
+
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 1px solid #ddd;
+	max-width: 600px;
+	height: 500px;
+	padding: 40px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	display: block;
+}
+
+#msg{
+	padding: 18px;
+	border: 1px solid #ddd;
+	width: 620px;
+	align-items: flex-start;
+
+}
+
+#sender_name{
+
+	color: green;
+	margin-top: 2px;
+}
+
+#receiver_name{
+
+	color:red;
+	margin-top: 2px;
+}
+
+#msg-btn{
+	font-size: 18px;
+	font-family: 'Courier New';
+	background: dodgerblue;
+	color: white;
+	border: 0 solid;
+}
+
+.sender{
+
+	font-size: 18px;
+	padding: 10px;
+	margin-left: auto;
+	word-wrap:break-word;
+	background: dodgerblue;
+	color: white;	
+	margin-top: 5px;
+	border-radius: 15px;
+	max-width:fit-content;
+	min-width:auto;
+}
+
+.receiver{
+font-size: 18px;
+			padding: 10px;
+			margin-right: auto;
+			word-wrap: break-word;
+			text-align: center;
+			/* word-break: inherit; */
+
+			background: #eee;
+			margin-top: 5px;
+			border-radius: 15px;
+			max-width:fit-content;
+			min-width:auto;
+
+}
+
+
