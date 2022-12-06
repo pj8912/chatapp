@@ -4,8 +4,9 @@ namespace ChatApp\Models;
 
 class User{
 
-	private $conn;
-	public $table = "users";
+	private $conn; //db connections
+
+	public $table = "users"; // users table
 
 	public function __construct($db){ 
 		$this->conn = $db;

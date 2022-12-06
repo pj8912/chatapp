@@ -21,9 +21,11 @@ class ComposerStaticInit4abf87844b3c8d126cf3d311811b1b52
     );
 
     public static $classMap = array (
+        'ChatApp\\Config\\Config' => __DIR__ . '/../..' . '/src/Config/Config.php',
         'ChatApp\\Database\\Database' => __DIR__ . '/../..' . '/src/Database/Database.php',
         'ChatApp\\Models\\Chat' => __DIR__ . '/../..' . '/src/Models/Chat.php',
         'ChatApp\\Models\\User' => __DIR__ . '/../..' . '/src/Models/User.php',
+        'ChatApp\\Templates\\Template' => __DIR__ . '/../..' . '/src/Templates/Template.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

@@ -6,8 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'ChatApp\\Config\\Config' => $baseDir . '/src/Config/Config.php',
     'ChatApp\\Database\\Database' => $baseDir . '/src/Database/Database.php',
     'ChatApp\\Models\\Chat' => $baseDir . '/src/Models/Chat.php',
     'ChatApp\\Models\\User' => $baseDir . '/src/Models/User.php',
+    'ChatApp\\Templates\\Template' => $baseDir . '/src/Templates/Template.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

@@ -4,7 +4,8 @@ namespace ChatApp\Models;
 
 class Chat{
 
-	private $conn;
+	private $conn; //db connection
+
 	public function __construct($db){ $this->conn = $db;}
 
 	public $message,  $sender_id, $receiver_id, $receiver_name;
